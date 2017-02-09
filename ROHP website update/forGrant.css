@@ -1,0 +1,45 @@
+.nav-row {
+	position: absolute;
+	height: 37%;
+	width: 87%;
+	opacity: 0.8;
+	top: 28%;
+      left: 9%;
+	border-radius: 25px;
+}
+
+.nav-links {
+      margin-top: 15px;
+      position: relative;
+      text-align: center;
+      height: 200px;
+      top: -20%;
+      width: 200px;
+      border-radius: 130px;
+      color: blue;
+      line-height: 200px;
+      cursor: pointer;
+      display: inline-block;
+      margin-left:5px;
+      z-index: 10;
+      border: 5px solid yellow;
+      transition: 0.5s;
+
+      font-family:'Merriweather Sans', sans-serif;
+      font-size: 70px;
+      font-weight: bold;
+                        
+}
+
+.subtext {
+      margin-bottom: -100%;
+      top: -30%;
+      position: relative;
+      font-family:'Merriweather Sans', sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+}
+
+.nav-links:hover{
+      color: yellow;
+}
